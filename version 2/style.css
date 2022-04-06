@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.header-element {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+.header-element .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80vw;
+    margin: 22px 0 22px 0;
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 120px;
+}
+.main-content .content-container {
+    display: flex;
+    flex-direction: column;
+    width: 85vw;
+    text-align: center;
+}
+
+.content-container .cards-container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 20px;
+}
+
+.content-container h1 {
+    font-size: 4.5rem;
+    margin: 60px auto 0;
+    font-weight: 400;
+    line-height: 1.1;
+}
+
+.content-container .lorem-ipsum {
+    font-size: 1.125rem;
+    width: 646px;
+    font-style: italic;
+    margin: 20px auto 0;
+}
+
+.content-container .image-link {
+    font-size: 1.125rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 20px auto 0;
+}
+
+.image-link a {
+    color: white;
+}
+
+.cards-container .card-container:before {
+    display: flex;
+    background-color: black;
+    color: white;
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.7;
+    width: 360px;
+    height: 416px;
+}
+
+.cards-container .card-container {
+    position: relative;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    height: 416px;
+    color: white;
+}
+
+.card-container .card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.card h2 {
+    font-size: 9rem;
+    line-height: 1;
+    font-weight: 400;
+    margin: 0;
+}
+
+.card h3 {
+    font-size: 2.25rem;
+    margin: 18px 0 0;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.card p {
+    margin: 18px 0 0;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+#footer-element {
+    min-height: 240px;
+    display: flex;
+    flex-direction: column;
+}
+
+#footer-element .footer-item {
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.u-link {
+    text-decoration: underline;
+}
+
+p span {
+    white-space: break-spaces;
+}
