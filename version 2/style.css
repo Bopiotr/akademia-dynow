@@ -2,7 +2,6 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
-    color: white;
 }
 
 .header-element {
@@ -63,36 +62,15 @@ body {
     color: white;
 }
 
-.cards-container .card-container:before {
+.cards-container .card {
     display: flex;
-    background-color: black;
-    color: white;
-    content: '';
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    opacity: 0.7;
-    width: 360px;
-    height: 416px;
-}
-
-.cards-container .card-container {
-    position: relative;
+    flex-direction: column;
+    align-items: flex-start;
     text-align: left;
-    display: flex;
-    flex-direction: column;
-    width: 360px;
-    height: 416px;
-    color: white;
-}
-
-.card-container .card {
-    position: relative;
-    display: flex;
-    flex-direction: column;
     padding: 30px;
+    width: 310px;
+    height: 360px;
+    background-color: #000000a3;
 }
 
 .card h2 {
